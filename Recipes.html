@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Annelie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .navbar-brand img {
+            width: 200px;
+            height: auto;
+        }
+
+        nav {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #555;
+        }
+
+        .small-container {
+            max-width: 1300px;
+            margin: auto;
+            padding: 0 25px;
+        }
+
+        .title {
+            text-align: center;
+            margin: 40px 0;
+            color: black;
+            font-size: 24px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .col-5 {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.5s;
+        }
+
+        .col-5 img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer; 
+
+        .col-5 h4 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .col-5 p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .col-5:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <img src="https://i.imgur.com/X1vWUB4.png" width="200px">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="ICT 2Q Project.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="Recipes.html">RECIPES</a></li>
+                <li class="nav-item"><a class="nav-link" href="submit recipe.html">SUBMIT RECIPES</a></li>
+            </ul>
+            <div class="searchbar">
+                <form class="form-inline">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn" type="button">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="small-container">
+        <div class="row">
+            <h2 class="title">Breakfast</h2>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <a href="Pancit Molo.html"> 
+                    <img src="https://i.imgur.com/TzsnjNK.png" alt="Pancit Molo"> <br>
+                </a><br>
+                <h4>Pancit Molo</h4><br>
+                <p>A comforting Filipino soup with pork-filled dumplings, vegetables, and broth from Iloilo. (Western Visayas).</p>
+            </div>
+            <div class="col-5">
+                <a href="Suman.html"> 
+                    <img src="https://i.imgur.com/UiZDv0P.png" alt="Suman"><br>
+                </a><br>
+                <h4>Suman</h4> <br>
+                <p>Sweet sticky rice wrapped in banana leaves, often paired with sugar and coconut milk, popular in the Central Visayas region.</p>
+            </div>
+        </div>
+
+        <h2 class="title">Lunch</h2>
+        <div class="row">
+            <div class="col-5">
+                <a href="Chicken Binakol.html"> 
+                    <img src="https://i.imgur.com/bdr8XCi.png" alt="Chicken Binakol"><br>
+                </a><br>
+                <h4>Chicken Binakol</h4><br>
+                <p>A light and aromatic chicken soup cooked with coconut water, bamboo shoots, and vegetables, from Capiz in Western Visayas.</p>
+            </div>
+            <div class="col-5">
+                <a href="KBL.html">
+                    <img src="https://i.imgur.com/nM74um7.png" alt="KBL"><br>
+                </a><br>
+                <h4>KBL (Kadyos, Baboy, Langka)</h4><br>
+                <p>A savory stew made with pork, pigeon peas, and young jackfruit, a traditional dish from Iloilo in Western Visayas.</p>
+            </div>
+        </div>
+
+        <h2 class="title">Dinner</h2>
+        <div class="row">
+            <div class="col-5">
+                <a href="Kansi.html"> 
+                    <img src="https://i.imgur.com/nM74um7.png" alt="Kansi"><br>
+                </a><br>
+                <h4>Kansi</h4><br>
+                <p>A light chicken soup cooked with coconut water, bamboo shoots, and vegetables, from Capiz in Western Visayas.</p>
+            </div>
+            <div class="col-5">
+                <a href="Lechon.html"> 
+                    <img src="https://www.dukeshill.co.uk/cdn/shop/articles/20230502144252-cebu-style-lechon_1024x1024.jpg?v=1690310444" alt="Cebu Lechon"><br>
+                </a><br>
+                <h4>Cebu Lechon</h4><br>
+                <p>Of course you can't forget the classic Cebu Lechon! This is a tender, flavorful roasted pig from Cebu in the Central Visayas.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

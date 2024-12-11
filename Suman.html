@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Suman Recipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand img {
+            width: 200px;
+            height: auto;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #555;
+            font-size: 17px;
+            margin-right: 30px;
+        }
+
+        .header {
+            background-image: url("https://i.imgur.com/UiZDv0P.png");
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-family: "Poppins", serif;
+            font-size: 3rem;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .ingredients, .instructions, .details {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #8b4513;
+            margin-bottom: 15px;
+        }
+
+        .rating, .time, .comments, .actions, .author, .dates {
+            margin-bottom: 10px;
+        }
+
+        .rating .star {
+            color: gold;
+        }
+
+        .button {
+            margin-right: 10px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #90c03d;
+            color: white;
+            border-radius: 5px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #90c03d;
+        }
+
+        a {
+            color: #90c03d; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md">
+        <img src="https://i.imgur.com/X1vWUB4.png" width="200px">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="ICT 2Q Project.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="Recipes.html">RECIPES</a></li>
+                <li class="nav-item"><a class="nav-link" href="fragrances.html">SUBMIT RECIPES</a></li>
+            </ul>
+            <div class="searchbar">
+                <form class="form-inline d-flex align-items-center">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn" type="button" style="border: none; background: transparent; padding: 0;">
+                        <img src="https://i.imgur.com/f9MSIxM.png" style="width: 20px; height: 20px;">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Suman</h1>
+    </div>
+
+    <div class="container">
+        <div class="details">
+            <h1><a href="Recipes.html">Home</a> > Breakfast</h1>
+            <h2>Pancit Molo</h2>
+            <div class="rating">
+                <span class="star">★ ★ ★ ★ ★</span>
+                <span class="score">5/5</span>
+            </div>
+            <div class="time">
+                <span class="icon">⏱︎</span>
+                <span class="duration">9 hrs and 30 mins</span>
+            </div>
+            <div class="comments">
+                <span class="icon">💬</span>
+                <span class="count">200 Comments</span>
+            </div>
+            <div class="actions">
+                <a class="button">Jump to Recipe</a>
+                <a class="button">Print</a>
+            </div>
+
+            <div class="author">
+                <span>By: Lutong Visayan Editors</span>
+            </div>
+            <div class="dates">
+                <span>Posted: 10/28/2024</span>
+                <span>Updated: 12/25/2024</span>
+            </div>
+        </div>
+
+         <h2>Author's Notes</h2>
+         <p> <i> Honestly, who doesn't love suman? I think it's a classic Filipino dish and is on par with the likes of biko. I may be biased, but suman is one of the best meriendas/breakfasts out there! You might be like, "9 hours and 30 minutes for a RICE dish?" Yes, but it's very worth it. (trust me). </i></p>
+
+        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+            
+                <li>2 cans of coconut milk</li>
+                <li>3/4 teaspoon salt</li>
+                <li>2 cups of sweet rice</li>
+                <li>fresh banana leaves</li>
+            </ul>
+        </div>
+
+<div class="instructions">
+    <h2>Instructions for Suman</h2>
+    <ol>
+        <li>Rinse the rice 3-4 times or until the water runs clear. Place it into a large bowl, cover with fresh water, and soak overnight.</li>
+        <li>Add the coconut milk, sugar, and salt in a deep skillet or wok over medium heat. Mix until the sugar dissolves.</li>
+        <li>Drain the excess water from the rice and add it to the wok with the ginger.</li>
+        <li>Once boiling, lower the heat to a simmer. Cook, stirring until it becomes thick, like oatmeal or porridge. Remove from heat and discard the ginger. Set aside for now.</li>
+        <li>Wash banana leaves and then pat gently with a towel. If they are frozen, run them under warm water until thawed.</li>
+        <li>Cut the banana leaves into 12×10 inch pieces. Heat both sides of the banana leaves over low heat on the stovetop and then set aside.</li>
+        <li>Scoop 1/3 cup of the rice mixture into the prepared banana leaves and spread it out into a smooth shape about 5 inches long, about 1 inch away from the bottom. Roll the banana leaf over the mound of rice, then fold in the sides. Continue until you have rolled all of the suman.</li>
+        <li>Rip strings from the extra banana leaves and tie the suman shut. You can tie them individually or in pairs. Kitchen twine works here as well.</li>
+        <li>Place into a shallow steamer pot and add enough water to where it’s touching the suman.</li>
+        <li>Cover and bring to a boil over medium heat. Once boiling, reduce the heat to low and steam for 1 hour, adding more water as needed.</li>
+        <li>Prepare the caramel sauce. Combine all ingredients except for the vanilla in a small pot over medium heat and whisk together until smooth. Bring to a boil and continue cooking until thick caramel forms, regularly mixing for 15-20 minutes. Remove from heat and add the vanilla.</li>
+        <li>Once the suman is done, remove it from the steamer and allow it to cool until easy to handle.</li>
+        <li>Unwrap the suman and serve with a drizzle of caramel sauce. Enjoy!</li>
+    </ol>
+</div>
+    <a href="https://sweetsimplevegan.com/suman-malagkit/"> 
+        <p style="font-size:20px; margin-left: 95px;">recipe credits</p>
+    </a>
+</html>
